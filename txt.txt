@@ -1,0 +1,2 @@
+curl url -i ==> GET
+curl url -i -X POST -H "content-type:application/json" -d '{body}'

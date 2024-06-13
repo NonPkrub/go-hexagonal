@@ -12,7 +12,7 @@ type accountService struct {
 	accRepo repository.AccountRepository
 }
 
-func NewAccountService(accRepo repository.AccountRepository) accountService {
+func NewAccountService(accRepo repository.AccountRepository) AccountService {
 	return accountService{accRepo: accRepo}
 }
 
